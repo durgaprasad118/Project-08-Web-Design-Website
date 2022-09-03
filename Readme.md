@@ -4,7 +4,7 @@
 
 ## Preview
 
-![Landing Page](/Project%207.png)
+![Landing Page](/Images/Project-8.png)
 
 ## Live Demo
 

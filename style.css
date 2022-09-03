@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat:wght@300;600&family=Mukta:wght@700&family=Orbitron&family=Oswald:wght@500;700&family=Poppins:wght@200;300&family=Raleway:wght@300&family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat:wght@300;600&family=Mukta:wght@700&family=Orbitron&family=Oswald:wght@500;700&family=Poppins:wght@200;300;500&family=Raleway:wght@300&family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@700&display=swap");
+* {
+  margin: 0;
+  border: 0;
+  font-family: "Poppins";
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+.nav-items {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 50;
+
+}
+nav img {
+  margin-left: 20px;
+}
+.nav-item {
+  font-weight: 800;
+  padding: 3px 15px;
+}
+.signin-btn {
+  margin-right: 150px;
+  border: 1px solid transparent;
+  padding: 4px 19px;
+  border-radius: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #4D9AF9;
+  z-index: 50;
+}
+.intro-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left-section {
+  margin-top: 120px;
+  margin-left: 20px;
+  flex: 1;
+  font-weight: 700;
+}
+.left-section h1 {
+  font-size: 48px;
+  color: #484ea1;
+}
+.left-section h4 {
+  margin-top: 50px;
+  font-weight: 500;
+}
+.learn-more-btn {
+  margin-top: 40px;
+  border: 1px solid transparent;
+  padding: 9px 39px;
+  border-radius: 30px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: hsl(321, 100%, 76%);
+}
+
+.imgs-div {
+  /* margin-top: -40px; */
+  transform: translateY(-60px) ;
+  flex: 2;
+  background-image: url(/Images/backcover.svg);
+
+}
+.imgs-div img:first-child {
+  position: relative;
+  top: 490px;
+  right: 220px;
+}
+.vector-dot {
+  position: relative;
+  top: 400px;
+  right: 260px;
+}
+.imgs-div img:last-child {
+  height: 600px;
+  margin-left: -100px;
+}
