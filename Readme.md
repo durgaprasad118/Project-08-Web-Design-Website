@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-[Live link](https://project-07-wireless-headphones-dp1108.netlify.app/)
+[Live link](https://project-08-web-design-dp1108.netlify.app/)
 
 ## Technologies Used
 
